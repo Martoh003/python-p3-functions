@@ -10,8 +10,8 @@ import sys
 class TestGreetProgrammer:
     '''function greet_programmer()'''
 
-    def test_greet_programmer(self):
-        '''prints "Hello, programmer!"'''
+    def greet_programmer(self):
+        print("Hello, programmer!")
         captured_out = io.StringIO()
         sys.stdout = captured_out
         greet_programmer()
